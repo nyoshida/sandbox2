@@ -27,7 +27,7 @@ public class dirFileChecker {
 		}
 		checkDir = configuration.getProperty("from_dir");
 		toDir = configuration.getProperty("to_dir");
-		System.out.println(checkDir+"フォルダを監視開始");
+		System.out.println(checkDir+"フォルダを監視開始・・・");
 
 		FileDirChecker check = new FileDirChecker(checkDir,toDir);
 		check.start();
